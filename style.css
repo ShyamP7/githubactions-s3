@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300; 400;500; 600; 700; 800; 900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan',sans-serif;
+}
+h1{
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+
+}
+h2{
+    font-size: 46px;
+    line-height: 56px;
+    color:#222;
+}
+h4{
+    font-size: large;
+    font-size: 30px;
+    color: #222;
+}
+h6
+{
+    font-weight: 400;
+    font-size: 10px;
+}
+p{
+    font-size: 16px;
+    color: #465b52;
+    margin: 15px 0 20px 0;
+
+}
+.section-p1
+{
+    padding: 40px 80px;
+}
+.section-m1
+{
+    margin: 40px 0;
+
+}
+body
+{
+    width: 100%;
+}
+.logo{
+    height: 80px;
+    width: 80px;
+}
+#header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background-color: #f2f4fd;
+    box-shadow: 0px 5px 15px rgb(0,0,0,0.06);
+}
+#navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar li{
+    list-style: none;
+    padding: 0px 20px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    transition: 0.3s ease;
+}
+#navbar li a:hover,
+#navbar li a.active
+{
+    color: #088178  ;
+}
+
+.home{
+    text-decoration: underline;
+}
+#hero{
+    background-image: url("img/hero.jpg");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    
+    background-position: top 10% right -200px;
+    background-repeat: no-repeat;
+    padding: 0 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    ;
+}
+#hero h4{
+   
+    padding-bottom: 15px;
+}
+#hero h1{
+    color: #088178;
+}
+#hero button{
+    background-color: rgb(205, 247, 233);
+    padding: 10px;
+    border-radius: 20px;
+}
+#feature .fe-box h6{
+    font-size: 30px;
+}
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#product1{
+    /* display: inline-block; */
+    text-align: center;
+
+}
+.pro-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.pro{
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    cursor: pointer;
+    border-radius: 1px solid ;
+    margin: 15px;
+    flex: 1 0 30%;
+}
+
+.pro img{
+    width: 400px;
+    height: 539px;
+}
+.star{
+    font-size: 12px;
+    color: rgb(243,228,8);
+}
+/* #navbar li a.active::after{
+    content:"" ;
+    height: 10px;
+    width: 50%;
+    color: #088178;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+} */
